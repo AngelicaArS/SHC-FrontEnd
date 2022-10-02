@@ -71,6 +71,8 @@
         display: none;
         position: absolute;
         background-color: rgba(0, 126, 245, 0.678);
+        border: 7px dotted #007EF5;
+        border-radius: 40px 40px 40px 40px;
     }
     nav li:hover > #submenu{
         display: flex;
