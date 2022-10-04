@@ -1,3 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'assets/main.css'
+
 <template>
   <HeaderComponent></HeaderComponent>
   <component :is = "currentView" />
