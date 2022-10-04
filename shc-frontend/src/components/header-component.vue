@@ -9,7 +9,7 @@
                     <a href="">Registrar</a>
                     <nav id="submenu">
                         <li>
-                            <a href="">Paciente</a>
+                            <a href="#/registrar-paciente">Paciente</a>
                         </li>
                         <li>
                             <a href="">Médico</a>
@@ -26,7 +26,10 @@
                 <a href="">Asignar</a>
             </li>
             <li>
-                <a href="">Consultar</a>
+                <a href="#/consultar-paciente">Consultar</a>
+            </li>
+            <li>
+                <a href="#/iniciar-sesion">Iniciar Sesión</a>
             </li>
         </nav>
     </div>

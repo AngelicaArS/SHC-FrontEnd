@@ -1,22 +1,18 @@
 <template>
-    <HeaderComponent></HeaderComponent>
     <div id="container-home" class="container">
         <img v-bind:src="require('./../assets/foto-medico.jpg')" alt="medico-en-casa" class="imagen">
         <div class="eslogan">
             <span>Al cuidado de tu salud sin salir de casa</span>
         </div>
     </div>
-    <FooterComponent></FooterComponent>
 </template>
 <script>
-import FooterComponent from "../components/footer-component.vue";
-import HeaderComponent from "../components/header-component.vue";
     export default {
     name: "home-page",
     props: {
         msg: String
     },
-    components: { FooterComponent, HeaderComponent }
+    components: {}
 }
 </script>
 <style scoped>

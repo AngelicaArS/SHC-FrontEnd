@@ -1,9 +1,9 @@
 <template>
-
+    <h1>Iniciar Sesión</h1>
 </template>
 <script>
     export default {
-      name: 'auxiliar',
+      name: 'inicio-sesion',
       props: {
         msg: String
       }
